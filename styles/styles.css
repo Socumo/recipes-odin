@@ -1,5 +1,33 @@
 /* styles.css */
 * {
     background-color: pink;
+    border: red;
     
+  }
+  img {
+  
+    float: right;
+    border-radius: 10%;
+   
+  }
+  h1  {
+  
+    text-align: center;
+   
+  }
+  .ingredients{
+  
+    text-align: left;
+   
+  }
+  .flex-container {
+    display: flex; 
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+     flex: 1; 
   }
